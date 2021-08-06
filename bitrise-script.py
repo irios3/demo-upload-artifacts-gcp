@@ -10,7 +10,6 @@ import logging
 import os
 import sys
 
-from aiohttp_retry import RetryClient
 
 
 log = logging.getLogger(__name__)
