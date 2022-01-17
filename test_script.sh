@@ -1,0 +1,3 @@
+WARNING_COUNT=50
+METRICS_FILE="metrics.txt"
+echo warnings $WARNING_COUNT
