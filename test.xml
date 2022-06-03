@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="50" failures="0">
+    <testsuite name="XCUITests" tests="50" failures="0" time="1333.8478064537048">
+        <testcase classname="ActivityStreamTest" name="testDefaultSites()" time="16.061020970344543">
+        </testcase>
+        <testcase classname="ActivityStreamTest" name="testTopSitesOpenInNewPrivateTab()" time="31.562848925590515">
+        </testcase>
+        <testcase classname="ActivityStreamTest" name="testTopSitesOpenInNewPrivateTabDefaultTopSite()" time="23.146281003952026">
+        </testcase>
+        <testcase classname="ActivityStreamTest" name="testTopSitesRemoveAllExceptDefaultClearPrivateData()" time="23.473953008651733">
+        </testcase>
+        <testcase classname="BookmarkingTests" name="testBookmarkLibraryAddDeleteBookmark()" time="37.874842047691345">
+        </testcase>
+        <testcase classname="BookmarkingTests" name="testBookmarksAwesomeBar()" time="66.93581402301788">
+        </testcase>
+        <testcase classname="BookmarkingTests" name="testUndoDeleteBookmark()" time="31.896549940109253">
+        </testcase>
+        <testcase classname="ClipBoardTests" name="testClipboardPasteAndGo()" time="28.533594965934753">
+        </testcase>
+        <testcase classname="DesktopModeTestsIpad" name="testLongPressReload()" time="0.07323801517486572">
+        </testcase>
+        <testcase classname="DesktopModeTestsIphone" name="testChangeModeInSameTab()" time="25.037160992622375">
+        </testcase>
+        <testcase classname="DownloadFilesTests" name="testDownloadFile()" time="28.641455054283142">
+        </testcase>
+        <testcase classname="DownloadFilesTests" name="testToastButtonToGoToDownloads()" time="27.225453972816467">
+        </testcase>
+        <testcase classname="FindInPageTests" name="testFindFromMenu()" time="32.348586082458496">
+        </testcase>
+        <testcase classname="FirstRunTourTests" name="testFirstRunTour()" time="7.934659004211426">
+        </testcase>
+        <testcase classname="HistoryTests" name="testClearPrivateDataButtonDisabled()" time="17.762575030326843">
+        </testcase>
+        <testcase classname="HistoryTests" name="testDeleteHistoryEntryBySwiping()" time="30.1460839509964">
+        </testcase>
+        <testcase classname="HomePageSettingsUITests" name="testCustomizeHomepage()" time="12.62036395072937">
+        </testcase>
+        <testcase classname="HomePageSettingsUITests" name="testJumpBackIn()" time="6.3326499462127686">
+        </testcase>
+        <testcase classname="NavigationTest" name="testLongPressLinkOptions()" time="17.56441295146942">
+        </testcase>
+        <testcase classname="NavigationTest" name="testPopUpBlocker()" time="36.10192000865936">
+        </testcase>
+        <testcase classname="NavigationTest" name="testSSL()" time="16.398262977600098">
+        </testcase>
+        <testcase classname="NavigationTest" name="testURLBar()" time="10.832234978675842">
+        </testcase>
+        <testcase classname="NavigationTest" name="testVerifyBrowserTabMenu()" time="12.232877016067505">
+        </testcase>
+        <testcase classname="NewTabSettingsTest" name="testChangeNewTabSettingsShowBlankPage()" time="23.22046995162964">
+        </testcase>
+        <testcase classname="NewTabSettingsTest" name="testChangeNewTabSettingsShowCustomURL()" time="24.544535994529724">
+        </testcase>
+        <testcase classname="NewTabSettingsTest" name="testCheckNewTabSettingsByDefault()" time="16.501348972320557">
+        </testcase>
+        <testcase classname="PhotonActionSheetTest" name="testPinToTop()" time="6.396641969680786">
+        </testcase>
+        <testcase classname="PhotonActionSheetTest" name="testShareOptionIsShownFromShortCut()" time="26.698357939720154">
+        </testcase>
+        <testcase classname="PhotonActionSheetTest" name="testSharePageWithShareSheetOptions()" time="24.23321497440338">
+        </testcase>
+        <testcase classname="PrivateBrowsingTestIpad" name="testiPadDirectAccessPrivateMode()" time="0.08756399154663086">
+        </testcase>
+        <testcase classname="ReaderViewTest" name="testAddToReaderListOptions()" time="19.10893201828003">
+        </testcase>
+        <testcase classname="ReaderViewTest" name="testAddToReadingList()" time="31.653295040130615">
+        </testcase>
+        <testcase classname="ReaderViewTest" name="testAddToReadingListFromBrowserTabMenu()" time="39.374809980392456">
+        </testcase>
+        <testcase classname="ReaderViewTest" name="testLoadReaderContent()" time="16.339365005493164">
+        </testcase>
+        <testcase classname="SaveLoginTest" name="testCreateLoginManually()" time="33.197556018829346">
+        </testcase>
+        <testcase classname="SaveLoginTest" name="testSavedLoginAutofilled()" time="39.80823302268982">
+        </testcase>
+        <testcase classname="SaveLoginTest" name="testSaveLogin()" time="71.39093506336212">
+        </testcase>
+        <testcase classname="SearchTests" name="testSearchEngine()" time="96.89770007133484">
+        </testcase>
+        <testcase classname="SearchTests" name="testSearchStartAfterTypingTwoWords()" time="14.764999985694885">
+        </testcase>
+        <testcase classname="TopTabsTest" name="testAddTabFromTabTray()" time="28.231863021850586">
+        </testcase>
+        <testcase classname="TopTabsTest" name="testCloseAllTabsPrivateModeUndo()" time="41.167136907577515">
+        </testcase>
+        <testcase classname="TopTabsTest" name="testCloseAllTabsUndo()" time="41.532877922058105">
+        </testcase>
+        <testcase classname="TopTabsTest" name="testLongTapTabCounter()" time="6.411152958869934">
+        </testcase>
+        <testcase classname="TopTabsTest" name="testOpenNewTabLandscape()" time="15.020976901054382">
+        </testcase>
+        <testcase classname="TopTabsTestIphone" name="testAddPrivateTabByLongPressTabsButton()" time="16.944284915924072">
+        </testcase>
+        <testcase classname="TopTabsTestIphone" name="testAddTabByLongPressTabsButton()" time="16.486979007720947">
+        </testcase>
+        <testcase classname="TopTabsTestIphone" name="testCloseTabFromLongPressTabsButton()" time="6.192673087120056">
+        </testcase>
+        <testcase classname="TopTabsTestIphone" name="testSwitchBetweenTabsNoPrivatePrivateToastButton()" time="24.886408925056458">
+        </testcase>
+        <testcase classname="TopTabsTestIphone" name="testSwitchBetweenTabsToastButton()" time="50.0859409570694">
+        </testcase>
+        <testcase classname="TrackingProtectionTests" name="testTrackingProtection()" time="61.9327130317688">
+        </testcase>
+    </testsuite>
+</testsuites>
