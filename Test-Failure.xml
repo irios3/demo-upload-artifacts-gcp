@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="676" failures="21">
+    <testsuite name="AccountTests" tests="17" failures="0" time="5.347396969795227">
+        <testcase classname="FxATelemetryTests" name="testParseTelemetry()" time="0.011553049087524414">
+        </testcase>
+        <testcase classname="HawkHelperTests" name="testGetBaseContentType()" time="0.001811981201171875">
+        </testcase>
+        <testcase classname="HawkHelperTests" name="testSpecRequestString()" time="0.004145979881286621">
+        </testcase>
+        <testcase classname="HawkHelperTests" name="testSpecSignatureExample()" time="0.002701997756958008">
+        </testcase>
+        <testcase classname="HawkHelperTests" name="testSpecWithoutPayloadExample()" time="0.0014280080795288086">
+        </testcase>
+        <testcase classname="HawkHelperTests" name="testSpecWithPayloadExample()" time="0.0029679536819458008">
+        </testcase>
+        <testcase classname="LivePushClientTests" name="testClientRegistration()" time="3.649610996246338">
+        </testcase>
+        <testcase classname="LivePushClientTests" name="testClientUpdate()" time="1.6542960405349731">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testDecrypt_aes128gcm()" time="0.003425002098083496">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testDecrypt_aesgcm()" time="0.0026530027389526367">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testFail_aes128gcm()" time="0.003733992576599121">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testFail_aesgcm()" time="0.0016399621963500977">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testKeyGeneration()" time="0.0013129711151123047">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testRoundTrip_aes128gcm()" time="0.0020450353622436523">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testRoundTrip_aesgcm()" time="0.0017989873886108398">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testRoundtrip_base64urlSafe()" time="0.0011249780654907227">
+        </testcase>
+        <testcase classname="PushCryptoTests" name="testRoundtrip_base64urlSafe_withSpecialChars()" time="0.0011470317840576172">
+        </testcase>
+    </testsuite>
+    <testsuite name="ClientTests" tests="453" failures="20" time="43.27494740486145">
+        <testcase classname="BreachAlertsTests" name="testBreachRecordForLogin()" time="0.030968070030212402">
+        </testcase>
+        <testcase classname="BreachAlertsTests" name="testDataRequest()" time="0.014409065246582031">
+        </testcase>
+        <testcase classname="BreachAlertsTests" name="testLoginsByHostname()" time="0.009387016296386719">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testAddOneDay_returnsNextDay()" time="0.0015850067138671875">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testAddZeroDay_returnSameDate()" time="0.001073002815246582">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testNumberOfDays_dayAfterTomorrowReturnsTwo()" time="0.001528024673461914">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testNumberOfDays_nextDayReturnsOne()" time="0.001304030418395996">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testNumberOfDays_sameDateReturnsZero()" time="0.001132965087890625">
+        </testcase>
+        <testcase classname="CalendarExtensionsTests" name="testRemoveOneDay_returnsPastDay()" time="0.001352071762084961">
+        </testcase>
+        <testcase classname="ClientTests" name="testMobileUserAgent()" time="0.0017489194869995117">
+        </testcase>
+        <testcase classname="ClientTests" name="testSyncUA()" time="0.0013130903244018555">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreCanClearTabs()" time="0.006453990936279297">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreCanStoreATab()" time="0.002034902572631836">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreCanStoreMoreThanOneTab()" time="0.0014700889587402344">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreCantHaveMoreThan10Tabs()" time="0.0029219388961791992">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreHasNoTabsAtInit()" time="0.001217961311340332">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStorePopFirstTab_returnAndRemovesIt()" time="0.002066969871520996">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStorePopFirstTabEmptyTabs()" time="0.0011010169982910156">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStorePopFirstTabOfMultiples_returnAndRemovesIt()" time="0.001685023307800293">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreRemoveTabs_futureDateRemovesNoTabs()" time="0.0021480321884155273">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreRemoveTabs_mixTabsDateGetsRemovedProperly()" time="0.0017039775848388672">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreRemoveTabs_nilDateRemovesNoTabs()" time="0.0023270845413208008">
+        </testcase>
+        <testcase classname="ClosedTabsStoreTests" name="testStoreRemoveTabs_yesterdayRemovesAllTabs()" time="0.002328038215637207">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testAuthStatusCodeResponse_failsWithError()" time="0.27116894721984863">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testCaching_succeedsFromCache()" time="0.010440945625305176">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testCachingExpires_failsIfCacheIsTooOld()" time="0.1026679277420044">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testEmptyArrayResponse_succeedsWithEmptyArray()" time="0.07764804363250732">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testEmptyResponse_failsWithError()" time="0.016843080520629883">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testErrorResponse_failsWithError()" time="0.009563922882080078">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testNilDataResponse_failsWithError()" time="0.052246928215026855">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testNoStubbing_doesntComplete()" time="1.0403050184249878">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testOrderingTilePosition_succeedsWithCorrectPosition()" time="0.012298107147216797">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testOrderingTilePositionWithNilPosition_succeedsWithCorrectPosition()" time="0.012740015983581543">
+        </testcase>
+        <testcase classname="ContileProviderTests" name="testWrongResponse_failsWithError()" time="0.01188206672668457">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testByDefaultCounter_isFalse()" time="0.001994013786315918">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testHadFiveCumulativeDaysInPastCanBeTrueAgain()" time="0.013270020484924316">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounter5TimesSameDay_isFalse()" time="0.0035909414291381836">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterFiveTimeDifferentDaysInARow_isTrue()" time="0.0059059858322143555">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterFiveTimeDifferentDaysWithDaysBetween_isFalse()" time="0.006011009216308594">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterFiveTimeDifferentDaysWithOneDayBetween_isFalse()" time="0.00498807430267334">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterFiveTimeInARowThenNoUsageForTwoDays_isFalse()" time="0.007846951484680176">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterFiveTimeValidWithinSevenDays_isTrue()" time="0.006147027015686035">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterMoreThan5TimesSameDay_isFalse()" time="0.0039310455322265625">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterMultipleTimesDailyForMultipleDays_isTrue()" time="0.010822057723999023">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterMultipleTimesDailyForMultipleDaysExpectDay5_isFalse()" time="0.0067179203033447266">
+        </testcase>
+        <testcase classname="CumulativeDaysOfUseCounterTests" name="testUpdateCounterOnce_isFalse()" time="0.0022159814834594727">
+        </testcase>
+        <testcase classname="CustomSearchEnginesTest" name="testaddSearchEngine()" time="0.40506601333618164">
+        </testcase>
+        <testcase classname="CustomSearchEnginesTest" name="testaddSearchEngineFailure()" time="0.003274083137512207">
+        </testcase>
+        <testcase classname="CustomSearchEnginesTest" name="testgetSearchTemplate()" time="0.0024939775466918945">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeFresh_alreadyShownOnboarding()" time="0.0033849477767944336">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeFresh_sessionCountIs3()" time="0.004634976387023926">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeFresh_sessionCountIsLessThan3()" time="0.0037789344787597656">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeFresh_sessionCountIsMoreThan3()" time="0.0037899017333984375">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeIsUnknown()" time="0.004001021385192871">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testInstallTypeIsUpgrade()" time="0.0040940046310424805">
+        </testcase>
+        <testcase classname="DefaultBrowserOnboardingTests" name="testViewModelChangePrefsOrNotAsExpected()" time="0.004803061485290527">
+        </testcase>
+        <testcase classname="DefaultSearchPrefsTests" name="testParsing_hasAllInfo_succeeds()" time="0.002646923065185547">
+        </testcase>
+        <testcase classname="DefaultSearchPrefsTests" name="testParsing_hasNoLocalesAndNoRegionOverrides_usesDefault()" time="0.002007007598876953">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_asString_emptyDictionary_returnsEmptyString()" time="0.0012019872665405273">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_asString_intDictionary_returnsResultString()" time="0.0012699365615844727">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_asString_stringDictionary_returnsResultString()" time="0.0011500120162963867">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_mergeEmptyDictWithNonEmpty()" time="0.0015829801559448242">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_mergeNonEmptyDictWithEmpty()" time="0.0010869503021240234">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_mergeTwoDict_withoutOverlappingValues()" time="0.0012290477752685547">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_mergeTwoDict_withOverlappingValues()" time="0.0012149810791015625">
+        </testcase>
+        <testcase classname="DictionaryExtensionsTests" name="test_mergeTwoEmptyDict_returnEmptyDict()" time="0.0015529394149780273">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testCancelAllDownload()" time="0.0011489391326904297">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDidCompleteWithError()" time="0.001170039176940918">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDidDownloadBytes()" time="0.001132965087890625">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDidFinishDownloadingToWithNoElementsInQueue()" time="0.0011349916458129883">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDidFinishDownloadingToWithOneElementsInQueue()" time="0.0010949373245239258">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDidFinishDownloadingToWithTwoElementsInQueue()" time="0.001103043556213379">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDownloadQueueIsEmpty()" time="0.0010520219802856445">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testDownloadQueueIsNotEmpty()" time="0.0010900497436523438">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testEnqueueDownloadShouldAppendDownloadAndTriggerResume()" time="0.0053130388259887695">
+        </testcase>
+        <testcase classname="DownloadQueueTests" name="testEnqueueDownloadShouldCallDownloadQueueDidStartDownload()" time="0.001078963279724121">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testDefaultNimbusBoolFlags()" time="0.17914295196533203">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FeatureFlagManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=49&amp;StartingLineNumber=49)">
+            </failure>
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testDefaultNimbusCustomFlags()" time="0.007805943489074707">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testExpectedCoreFeatures()" time="0.006901979446411133">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testManagerInterfaceForUpdatingBoolFlags()" time="0.008059024810791016">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testManagerInterfaceForUpdatingCustomFlags()" time="0.0076760053634643555">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testManagerRespectsProfileChangesForBoolSettings()" time="0.012877941131591797">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testManagerRespectsProfileChangesForCustomSettings()" time="0.012324094772338867">
+        </testcase>
+        <testcase classname="FeatureFlagManagerTests" name="testStartAtHomeBoolean()" time="0.0066879987716674805">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testMigrateSearchBarPreferences()" time="0.017156004905700684">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testMigrationOfMultipleSettings()" time="0.01376199722290039">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testMigrationOfOneSetting()" time="0.013478994369506836">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testSetAllKeysToTrue()" time="0.01414501667022705">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testSettingKeysToAVarietyOfSettings()" time="0.01779305934906006">
+        </testcase>
+        <testcase classname="FeatureFlagsUserPrefsMigrationUtilityTests" name="testVerifyEmptyProfiles()" time="0.013778924942016602">
+        </testcase>
+        <testcase classname="FileAccessorTests" name="testFileAccessor()" time="0.0046950578689575195">
+        </testcase>
+        <testcase classname="FirefoxHomeViewControllerTests" name="testFirefoxHomeViewController_creationFromBVC_hasNoLeaks()" time="0.11154794692993164">
+        </testcase>
+        <testcase classname="FirefoxHomeViewControllerTests" name="testFirefoxHomeViewController_simpleCreation_hasNoLeaks()" time="0.017771005630493164">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_addNextTileIfSponsoredTileIsDuplicate()" time="0.030643105506896973">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=247&amp;StartingLineNumber=247)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_addSponsoredTileAfterGoogle()" time="0.022901058197021484">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=162&amp;StartingLineNumber=162)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_addSponsoredTileIfDuplicateIsNotPinned()" time="0.023726940155029297">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=232&amp;StartingLineNumber=232)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddMoreSponsoredTileThanMaximum()" time="0.023934006690979004">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=202&amp;StartingLineNumber=202)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddSponsoredTileIfDuplicatePinned()" time="0.02235102653503418">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=218&amp;StartingLineNumber=218)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddSponsoredTileIfError()" time="0.021836042404174805">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=175&amp;StartingLineNumber=175)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddSponsoredTileIfSuccessEmpty()" time="0.020722031593322754">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=188&amp;StartingLineNumber=188)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddTileIfAllSpacesArePinned()" time="0.02667105197906494">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_doesNotAddTileIfAllSpacesArePinnedAndGoogleIsThere()" time="0.023128986358642578">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=277&amp;StartingLineNumber=277)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_hasGoogleTopSite_googlePrefsNil()" time="0.02324998378753662">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=101&amp;StartingLineNumber=101)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_hasGoogleTopSiteWithPinnedCount_googlePrefsNi()" time="0.0220639705657959">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=111&amp;StartingLineNumber=111)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_hasNotGoogleTopSite_IfHidden()" time="0.023671984672546387">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testCalculateTopSitesData_pinnedSites()" time="0.021358966827392578">
+            <failure message="XCTAssertEqual failed: (&quot;13&quot;) is not equal to (&quot;14&quot;) (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=136&amp;StartingLineNumber=136)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testDuplicates_PinnedTilesHasPrecedenceOnFrequencyTiles()" time="0.0">
+            <failure message="Crash: Client (64132) implicit closure #13 in closure #1 in FxHomeTopSitesManagerTests.testDuplicates_PinnedTilesHasPrecedenceOnFrequencyTiles(): Namespace SIGNAL, Code 0x4. dyld4 config: DYLD_ROOT_PATH=/Applications/Xcode_13.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot DYLD_LIBRARY_PATH=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator DYLD_INSERT_LIBRARIES=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator/Client.app/Frameworks/libXCTestBundleInject.dylib:/Applications/Xcode_13.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib DYLD_FRAMEWORK_PATH=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator:/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator/PackageFrameworks 
+ClientTests/FxHomeTopSitesManagerTests.swift:337: Fatal error: Unexpectedly found nil while unwrapping an Optional value
+CoreSimulator 776.4 - Device: iPhone 11 (5D8E0878-64FC-433E-B839-C048627E351D) - Runtime: iOS 15.0 (19A339) - DeviceType: iPhone 11 (#CharacterRangeLen=0)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testDuplicates_PinnedTilesHasPrecedenceOnSponsoredTiles()" time="0.29736602306365967">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=306&amp;StartingLineNumber=306)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testDuplicates_PinnedTilesOfSameDomainIsntDeduped()" time="0.0">
+            <failure message="XCTAssertEqual failed: (&quot;2&quot;) is not equal to (&quot;3&quot;) - Should have google site and 2 pinned sites (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=349&amp;StartingLineNumber=349)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testDuplicates_SponsoredTileHasPrecedenceOnFrequencyTiles()" time="0.09823799133300781">
+            <failure message="XCTAssertTrue failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=292&amp;StartingLineNumber=292)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testEmptyData_getSites()" time="0.020468950271606445">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testEmptyData_whenNotLoaded()" time="0.018411993980407715">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testLoadTopSitesData()" time="0.12586498260498047">
+            <failure message="XCTAssertEqual failed: (&quot;10&quot;) is not equal to (&quot;11&quot;) - Expects 1 google site, 10 history sites (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=74&amp;StartingLineNumber=74)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testLoadTopSitesData_addSponsoredTile()" time="0.0929790735244751">
+            <failure message="XCTAssertEqual failed: (&quot;11&quot;) is not equal to (&quot;12&quot;) - Expects 1 google site, 1 contile, 10 history sites (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=151&amp;StartingLineNumber=151)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testLoadTopSitesData_hasDataWithDefaultCalculation()" time="0.08646893501281738">
+            <failure message="XCTAssertEqual failed: (&quot;10&quot;) is not equal to (&quot;11&quot;) - Expects 1 google site, 10 history sites (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=65&amp;StartingLineNumber=65)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testLoadTopSitesData_whenGetSites()" time="0.04086196422576904">
+            <failure message="XCTAssertNotNil failed (/Users/isabelrios/git/isabelrios/firefox-ios/firefox-ios/ClientTests/FxHomeTopSitesManagerTests.swift#CharacterRangeLen=0&amp;EndingLineNumber=84&amp;StartingLineNumber=84)">
+            </failure>
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testNumberOfRows_default()" time="0.018500924110412598">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testNumberOfRows_userChangedDefault()" time="0.019195079803466797">
+        </testcase>
+        <testcase classname="FxHomeTopSitesManagerTests" name="testTopSiteManager_hasNoLeaks()" time="0.017343997955322266">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testDeletionOfAllDefaultSites()" time="0.017379045486450195">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testDeletionOfSingleSuggestedSite()" time="0.015082001686096191">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_halfFilledRow_shouldNotBeRemoved()" time="0.009509921073913574">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_landscapeiPadCompact_defaultRowNumber()" time="0.008630037307739258">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_landscapeiPadRegular_defaultRowNumber()" time="0.008401036262512207">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_landscapeiPadUnspecified_defaultRowNumber()" time="0.008495092391967773">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_landscapeIphone_defaultRowNumber()" time="0.00946509838104248">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_noEmptyRow_shouldNotBeRemoved()" time="0.009010076522827148">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_oneEmptyRow_shouldBeRemoved()" time="0.008401989936828613">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_portraitiPadCompact_defaultRowNumber()" time="0.008816003799438477">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_portraitiPadRegular_defaultRowNumber()" time="0.00863492488861084">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_portraitiPadUnspecified_defaultRowNumber()" time="0.00925898551940918">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_portraitIphone_defaultRowNumber()" time="0.010213971138000488">
+        </testcase>
+        <testcase classname="FxHomeTopSitesViewModelTests" name="testSectionDimension_twoEmptyRow_shouldBeRemoved()" time="0.008363008499145508">
+        </testcase>
+        <testcase classname="GleanTelemetryTests" name="testSyncPingIsSentOnSyncOperation()" time="1.5526610612869263">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testDeletingMultipleItemsEmptyingDatabase()" time="0.10709404945373535">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testDeletingMultipleSpecificItems()" time="0.08609998226165771">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testDeletingMultipleTopLevelItems()" time="0.09119999408721924">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testDeletingSingleItem()" time="0.05251491069793701">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testEmptyRead()" time="0.027405977249145508">
+        </testcase>
+        <testcase classname="HistoryDeletionUtilityTests" name="testSingleDataExists()" time="0.04261207580566406">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testEmptyRead()" time="0.024744033813476562">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testHistoryHighlightCount()" time="0.06180894374847412">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testHistoryHighlightCount_ForMoreThanNineResult()" time="0.11930108070373535">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testHistoryHighlightsDontExist()" time="0.020882010459899902">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleDataExists()" time="0.023405909538269043">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlight_withGroupingEnabled()" time="0.07547998428344727">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlightExists_RemovingOpenTab()" time="0.07429802417755127">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlightOrder_OnlyGroupItems()" time="0.08062291145324707">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlightOrder_OnlySingleItems()" time="0.050444960594177246">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlightOrder_withMoreSingleItemEach()" time="0.057760000228881836">
+        </testcase>
+        <testcase classname="HistoryHighlightsTests" name="testSingleHistoryHighlightOrder_withTwoItemEach()" time="0.07378101348876953">
+        </testcase>
+        <testcase classname="HomePageTests" name="testHomePageSettingForInternalURLs()" time="0.00191497802734375">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftFalse_withCmdShiftPressedAndRelease()" time="0.004456996917724609">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftTrue_withCmdOptionPressed()" time="0.0013179779052734375">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftTrue_withLeftPresses()" time="0.0012819766998291016">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftTrue_withRandomKeyReleased()" time="0.0012810230255126953">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftTrue_withReversedOrderPress()" time="0.0011550188064575195">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdAndShiftTrue_withRightPresses()" time="0.0012218952178955078">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdFalse_withCmdPressedAndRelease()" time="0.0012459754943847656">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdFalse_withCmdShiftPressed()" time="0.0012589693069458008">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdTrue_withCmdOptionPressed()" time="0.001230001449584961">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdTrue_withLeftCmdPress()" time="0.0012149810791015625">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdTrue_withRandomKeyReleased()" time="0.0012819766998291016">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testCmdTrue_withRightCmdPress()" time="0.0012409687042236328">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testDefaultsPressedAreFalse()" time="0.0012059211730957031">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testOnlyOneCmd_withCmdPressedMultipleTimes()" time="0.001210927963256836">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testOptionFalse_withPressedAndReleased()" time="0.001253962516784668">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testOptionTrue_withLeftPress()" time="0.0012660026550292969">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testOptionTrue_withRandomKeyReleased()" time="0.0014129877090454102">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testOptionTrue_withRightPress()" time="0.0012080669403076172">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testPressedAreFalse_withEmptyPresses()" time="0.0011529922485351562">
+        </testcase>
+        <testcase classname="KeyboardPressesHandlerTests" name="testPressedAreFalse_withRandomKeyPress()" time="0.0012259483337402344">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testBookmarkViewInFolderModeSwitchingToOtherPanelAndReturningToCorrectBookmarksState()" time="0.002259969711303711">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testChangingDifferentPanelsAndSavingStates()" time="0.0012749433517456055">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateChangingToSameState()" time="0.001199960708618164">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateForBookmarkMainViewToOtherPanelMainView()" time="0.0012050867080688477">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateForBookmarkMainViewToOtherPanelMainViewAndBack()" time="0.0012639760971069336">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateMachineInitializesWithProperState()" time="0.0030449628829956055">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelFollowsStateProgressionMovingOutOfStates()" time="0.0012079477310180664">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelFollowStateProgressionMovingIntoStates()" time="0.0011990070343017578">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelGoesBackToFolderEditModeFromItemEditState()" time="0.0012350082397460938">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelGoesIntoEditFolderState()" time="0.0012450218200683594">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelGoesIntoFolderState()" time="0.0011800527572631836">
+        </testcase>
+        <testcase classname="LibraryPanelViewStateTests" name="testStateOnBookmarkPanelGoesIntoItemEditState()" time="0.0012049674987792969">
+        </testcase>
+        <testcase classname="LoginListDataSourceHelperTests" name="testComputeSectionsFromLogins()" time="0.005813002586364746">
+        </testcase>
+        <testcase classname="LoginListDataSourceHelperTests" name="testSetDomainLookup()" time="0.0034279823303222656">
+        </testcase>
+        <testcase classname="LoginListDataSourceHelperTests" name="testSortByDomain()" time="0.0045479536056518555">
+        </testcase>
+        <testcase classname="LoginListDataSourceHelperTests" name="testTitleForLogin()" time="0.0025309324264526367">
+        </testcase>
+        <testcase classname="LoginsListSelectionHelperTests" name="testDeselectAll()" time="0.005205988883972168">
+        </testcase>
+        <testcase classname="LoginsListSelectionHelperTests" name="testDeselectIndexPath()" time="0.004909038543701172">
+        </testcase>
+        <testcase classname="LoginsListSelectionHelperTests" name="testIndexPathIsSelected()" time="0.0017790794372558594">
+        </testcase>
+        <testcase classname="LoginsListSelectionHelperTests" name="testSelectIndexPath()" time="0.0017960071563720703">
+        </testcase>
+        <testcase classname="LoginsListSelectionHelperTests" name="testSelectIndexPaths()" time="0.0016319751739501953">
+        </testcase>
+        <testcase classname="LoginsListViewModelTests" name="testIsDuringSearchControllerDismiss()" time="0.06620395183563232">
+        </testcase>
+        <testcase classname="LoginsListViewModelTests" name="testQueryLogins()" time="0.08102989196777344">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testCaseInsensitivity()" time="0.02389705181121826">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testCloseTabsMediumWidget_privateTabPath()" time="0.01570892333984375">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testCloseTabsSmallWidget_privateTabPath()" time="0.013975977897644043">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testDeepLinks()" time="0.01345205307006836">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testFxALinks()" time="0.012433052062988281">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testHostDoesntSpill()" time="0.014487028121948242">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testNavigationPath_handleClosingPrivateTabs_tabsAreDeleted()" time="0.040373921394348145">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testNavigationPath_handleNormalTab_isExternalSourceTrue()" time="0.09055209159851074">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testNavigationPath_handlePrivateTab_isExternalSourceTrue()" time="0.12817895412445068">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testOpenURLScheme()" time="0.016016006469726562">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testOpenURLWidget_normalTabPath()" time="0.01421201229095459">
+        </testcase>
+        <testcase classname="NavigationRouterTests" name="testOpenURLWidget_privateTabPath()" time="0.014315962791442871">
+        </testcase>
+        <testcase classname="NimbusIntegrationTests" name="testNSLocalizedStringAccess()" time="0.0021979808807373047">
+        </testcase>
+        <testcase classname="NimbusIntegrationTests" name="testStringBundleAccess()" time="0.0013380050659179688">
+        </testcase>
+        <testcase classname="PocketStoriesTests" name="testPocketStoriesCaching()" time="0.014053940773010254">
+        </testcase>
+        <testcase classname="PrefsTests" name="testBoolForKey()" time="0.011272072792053223">
+        </testcase>
+        <testcase classname="PrefsTests" name="testClearPrefs()" time="0.005833029747009277">
+        </testcase>
+        <testcase classname="PrefsTests" name="testMockProfilePrefsClearAll()" time="0.00218808650970459">
+        </testcase>
+        <testcase classname="PrefsTests" name="testMockProfilePrefsKeys()" time="0.0013610124588012695">
+        </testcase>
+        <testcase classname="PrefsTests" name="testMockProfilePrefsRoundtripsTimestamps()" time="0.001519918441772461">
+        </testcase>
+        <testcase classname="PrefsTests" name="testStringArrayForKey()" time="0.008546948432922363">
+        </testcase>
+        <testcase classname="PrefsTests" name="testStringForKey()" time="0.006505012512207031">
+        </testcase>
+        <testcase classname="QuickActionsTest" name="testNewPrivateTabShortcut_externalSourceIsTrue()" time="0.3741610050201416">
+        </testcase>
+        <testcase classname="QuickActionsTest" name="testNewTabShortcut_externalSourceIsTrue()" time="0.25984692573547363">
+        </testcase>
+        <testcase classname="QuickActionsTest" name="testOpenBookmarkShortcut_externalSourceIsTrue()" time="0.2346440553665161">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testGoToAppStoreReview()" time="0.002375006675720215">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_cumulativeDaysOfUseFalse_returnsFalse()" time="0.024869918823242188">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_has5FoldersInMobileBookmarks_returnsFalse()" time="0.1547149419784546">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_has5SeparatorsInMobileBookmarks_returnsFalse()" time="0.044992923736572266">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasMinimumMobileBookmarksCount_returnsTrue()" time="0.09389293193817139">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasNotMinimumMobileBookmarksCount_returnsFalse()" time="0.21862006187438965">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasOtherBookmarksCount_returnsFalse()" time="0.12462997436523438">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasRequestedInTheLastTwoWeeks_returnsFalse()" time="0.029616951942443848">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasRequestedTwoWeeksAgo_returnsTrue()" time="0.03268003463745117">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_hasTPStrict_returnsTrue()" time="0.029155969619750977">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_isBrowserDefaultTrue_returnsTrue()" time="0.025529980659484863">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_lessThanSession5_returnsFalse()" time="0.022927045822143555">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_requestCountTwiceCountIsAtOne()" time="0.025308966636657715">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_requiredAreFalse_returnsFalse()" time="0.0209730863571167">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_requiredTrueWithoutOptional_returnsFalse()" time="0.018325090408325195">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_sentryHasCrashedInLastSession_returnsFalse()" time="0.02147197723388672">
+        </testcase>
+        <testcase classname="RatingPromptManagerTests" name="testShouldShowPrompt_withRequiredRequirementsAndOneOptional_returnsTrue()" time="0.059989094734191895">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_appWideThemeDark_returnsDark()" time="0.04538607597351074">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_defaultReaderModeTheme()" time="0.010507941246032715">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_encodingAsDictionary_succeeds()" time="0.010316014289855957">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_initWithDictionnary_succeeds()" time="0.009299039840698242">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_initWithEmptyDictionnary_fails()" time="0.011319994926452637">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_initWithProperties_succeeds()" time="0.00987398624420166">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_initWithWrongDictionnary_fails()" time="0.01677095890045166">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_preferredColorTheme_changesFromLightToDark()" time="0.05289506912231445">
+        </testcase>
+        <testcase classname="ReaderModeStyleTests" name="test_readerThemeSepia_returnsSepia()" time="0.018170952796936035">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testBookmarkItem_withExactCutoffDate()" time="0.011541008949279785">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testBookmarkItem_withFutureDate()" time="0.004474043846130371">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testBookmarkItem_withNowDate()" time="0.004498958587646484">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testBookmarkItem_withPastDateBeforeCutoff()" time="0.009068012237548828">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testBookmarkItem_withPastDatePastCutoff()" time="0.004824042320251465">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testEmptyRecentItems_returnsEmpty()" time="0.008838891983032227">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testMultipleBookmarkItems_withMixedDates()" time="0.008813023567199707">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testMultipleBookmarkItems_withNowDate()" time="0.002835988998413086">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testMultipleReadingListItem_withNowDate()" time="0.004287004470825195">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testMultipleRecentlySavedItems_withMixedDates()" time="0.006029963493347168">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testReadingListItem_withExactCutoffDate()" time="0.007701992988586426">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testReadingListItem_withFutureDate()" time="0.0032700300216674805">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testReadingListItem_withNowDate()" time="0.003036975860595703">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testReadingListItem_withPastDateBeforeCutoff()" time="0.002701997756958008">
+        </testcase>
+        <testcase classname="RecentItemsHelperTests" name="testReadingListItem_withPastDatePastCutoff()" time="0.003298044204711914">
+        </testcase>
+        <testcase classname="RelativeDatesTests" name="testRelativeDates()" time="0.005034923553466797">
+        </testcase>
+        <testcase classname="RemoteTabsPanelTests" name="testHasNoClients()" time="0.3283120393753052">
+        </testcase>
+        <testcase classname="RemoteTabsPanelTests" name="testHasNoSyncAccount()" time="0.013694047927856445">
+        </testcase>
+        <testcase classname="RemoteTabsPanelTests" name="testHasNoTabs()" time="0.03428006172180176">
+        </testcase>
+        <testcase classname="RemoteTabsPanelTests" name="testHasTabs()" time="0.01626896858215332">
+        </testcase>
+        <testcase classname="RemoteTabsPanelTests" name="testSectionCanCollapseAndReopen()" time="0.027715086936950684">
+        </testcase>
+        <testcase classname="ResetTests" name="testResetting()" time="0.03513598442077637">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testDefaultSearchPosition()" time="0.010181903839111328">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testNoNotificationSent_withoutDefaultPref()" time="2.011209011077881">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testNotificationSent_bottomIsReceived()" time="0.11330199241638184">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testNotificationSent_onBottomSetting()" time="0.11829602718353271">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testNotificationSent_onTopSetting()" time="0.06492698192596436">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testNotificationSent_topIsReceived()" time="0.07306802272796631">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onBottomSavesOnBottom()" time="0.013628959655761719">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onBottomSettingCallsDelegate()" time="0.09746503829956055">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onBottomSettingHasCheckmark()" time="0.011186003684997559">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onTopSavesOnTop()" time="0.06132709980010986">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onTopSettingCallsDelegate()" time="0.08261096477508545">
+        </testcase>
+        <testcase classname="SearchBarSettingsViewModelTests" name="testSavedSearchPosition_onTopSettingHasCheckmark()" time="0.06722903251647949">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testAddingAndDeletingCustomEngines()" time="0.04253792762756348">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testDefaultEngine()" time="0.029832005500793457">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testDefaultEngineOnStartup()" time="0.021704912185668945">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testGetOrderedEngines()" time="0.021221041679382324">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testIncludesExpectedEngines()" time="0.019981980323791504">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testOrderedEngines()" time="0.03435802459716797">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testQuickSearchEngines()" time="0.05339705944061279">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testSearchSuggestionSettings()" time="0.05452895164489746">
+        </testcase>
+        <testcase classname="SearchEnginesTests" name="testUnorderedSearchEngines()" time="0.06323695182800293">
+        </testcase>
+        <testcase classname="SearchTests" name="testExtractingOfSearchTermsFromURL()" time="0.012611031532287598">
+        </testcase>
+        <testcase classname="SearchTests" name="testParsing()" time="0.004745960235595703">
+        </testcase>
+        <testcase classname="SearchTests" name="testSuggestClient()" time="0.1119539737701416">
+        </testcase>
+        <testcase classname="SearchTests" name="testURIFixup()" time="0.02081000804901123">
+        </testcase>
+        <testcase classname="SearchTests" name="testURIFixupPunyCode()" time="0.007255077362060547">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_faviconLoads_completesFromCache()" time="0.01816391944885254">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_faviconLoads_completesOnImage()" time="0.010061979293823242">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_faviconLoads_doesNotCompleteOnError()" time="1.0118669271469116">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoading_doesNotCompleteOnUrlNotAWebsite()" time="1.0036779642105103">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoads_completesFromCache()" time="0.005673050880432129">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoads_completesOnImage()" time="0.001981019973754883">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoads_doesNotCompleteOnEmptyMetadata()" time="1.0022709369659424">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoads_doesNotCompleteOnError()" time="1.0045740604400635">
+        </testcase>
+        <testcase classname="SiteImageHelperTests" name="test_heroImageLoads_doesNotCompleteProviderImageError()" time="1.0036981105804443">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testClickTopSite()" time="0.05200302600860596">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testContextId_isCreated()" time="0.056005001068115234">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testContextId_isNilByDefault()" time="0.06229901313781738">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testContextId_isReusedAfterCreation()" time="0.0742720365524292">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testImpressionTopSite()" time="1.1340090036392212">
+        </testcase>
+        <testcase classname="SponsoredTileTelemetryTests" name="testTelemetryWrapper_setsContextId()" time="0.07139098644256592">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testNotShouldStartAtHome_AfterFourHours()" time="0.02315998077392578">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testNotShouldStartAtHome_Always()" time="0.020624995231628418">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testScanForExistingHomeTab_ForEmptyTabs()" time="0.020833969116210938">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testScanForExistingHomeTab_WithHomePage()" time="0.029983043670654297">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testScanForExistingHomeTab_WithoutHomePage()" time="0.029819011688232422">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testShouldNotSkipStartAtHome()" time="0.019389986991882324">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testShouldSkipStartAtHome_RestoringTabs()" time="0.02151310443878174">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testShouldStartAtHome_AfterFourHours()" time="0.02235400676727295">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testShouldStartAtHome_Always()" time="0.020966053009033203">
+        </testcase>
+        <testcase classname="StartAtHomeHelperTests" name="testShouldStartAtHome_Disabled()" time="0.019363999366760254">
+        </testcase>
+        <testcase classname="StringExtensionsTests" name="testEllipsize()" time="0.0019549131393432617">
+        </testcase>
+        <testcase classname="StringExtensionsTests" name="testPercentEscaping()" time="0.001582026481628418">
+        </testcase>
+        <testcase classname="StringExtensionsTests" name="testRemoveUnicodeFromFilename()" time="0.0028820037841796875">
+        </testcase>
+        <testcase classname="StringExtensionsTests" name="testStringByTrimmingLeadingCharactersInSet()" time="0.0014580488204956055">
+        </testcase>
+        <testcase classname="StringExtensionsTests" name="testStringSplitWithNewline()" time="0.004127979278564453">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testAllCompleted()" time="0.0059549808502197266">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testAllCompletedExceptNotStartedBecauseNoAccount()" time="0.0038279294967651367">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testAllCompletedExceptNotStartedBecauseOffline()" time="0.0023180246353149414">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testAllCompletedExceptOneDisabledRemotely()" time="0.002586960792541504">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testAllPartial()" time="0.00233304500579834">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testOfflineAndNoAccount()" time="0.0019860267639160156">
+        </testcase>
+        <testcase classname="SyncStatusResolverTests" name="testRandomFailure()" time="0.002671957015991211">
+        </testcase>
+        <testcase classname="TPStatsBlocklistsTests" name="testLoadPerformance()" time="1.2490150928497314">
+        </testcase>
+        <testcase classname="TPStatsBlocklistsTests" name="testURLInList()" time="0.11863899230957031">
+        </testcase>
+        <testcase classname="TPStatsBlocklistsTests" name="testURLInListPerformance()" time="0.4418410062789917">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_countAtMinusOne_placeAtZero()" time="0.014435052871704102">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_countAtOne_placeAtOne()" time="0.012632966041564941">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_countAtTwo_placeAtTwo()" time="0.013595938682556152">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_countAtZero_placeAtZero()" time="0.012475013732910156">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_hasOneTab_newTabAtIndex1()" time="0.03603696823120117">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_hasThreeTabsFirstSelected_newTabAtIndex3()" time="0.05339503288269043">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testIndexToPlaceTab_hasThreeTabsLastSelected_newTabAtIndex3()" time="0.0619579553604126">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testPlaceNextToParentTab_parentWasFirstTab_newTabPlaceIsAfterParent()" time="0.06228995323181152">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testPlaceNextToParentTab_parentWasLastTab_newTabPlaceIsLast()" time="0.06972992420196533">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testPlaceNextToParentTab_parentWasNotLastTab_newTabPlaceIsAfterParent()" time="0.07317900657653809">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testSelectedCell_lastTabSelectedAndRemoved()" time="0.43719494342803955">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testSelectedCell_secondToLastTabSelectedAndRemoved()" time="0.1942371129989624">
+        </testcase>
+        <testcase classname="TabDisplayManagerTests" name="testSelectedCell_secondToLastTabSelectedAndTabBeforeRemoved()" time="0.13540005683898926">
+        </testcase>
+        <testcase classname="TabEventHandlerTests" name="testBlankPopupURL()" time="1.1324119567871094">
+        </testcase>
+        <testcase classname="TabEventHandlerTests" name="testEventDelivery()" time="0.005397915840148926">
+        </testcase>
+        <testcase classname="TabManagerStoreTests" name="testAddTabWithoutStoring_hasNoData()" time="0.039039015769958496">
+        </testcase>
+        <testcase classname="TabManagerStoreTests" name="testNoData()" time="0.030527949333190918">
+        </testcase>
+        <testcase classname="TabManagerStoreTests" name="testNormalTabsAreArchived_storeMultipleTimesProperly()" time="0.02611398696899414">
+        </testcase>
+        <testcase classname="TabManagerStoreTests" name="testPrivateTabsAreArchived()" time="0.02358698844909668">
+        </testcase>
+        <testcase classname="TabManagerStoreTests" name="testRemoveAndAddTab_doesntStoreRemovedTabs()" time="0.022567033767700195">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTabAndSelect()" time="0.028388023376464844">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTabShouldAddOneNormalTab()" time="0.020478010177612305">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTabShouldAddOnePrivateTab()" time="0.01960301399230957">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTwoTabs_moveTabFromLastToFirstPosition()" time="0.03238499164581299">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTwoTabs_selectFirstThenSelectSecond_previousIsntNil()" time="0.03672301769256592">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTwoTabs_selectFirstThenSelectSecond_thenDeleteLastTab()" time="0.18268907070159912">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testAddTwoTabs_selectWithoutPrevious()" time="0.09298503398895264">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDelegatesCalledWhenRemovingPrivateTabs()" time="0.22381997108459473">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDeleteFirstTab()" time="0.4950530529022217">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDeleteLastTab_selectsThePrevious()" time="0.4368860721588135">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDeleteSelectedTab()" time="0.9784460067749023">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDidCreateNormalTabWhenDeletingAll()" time="0.22549402713775635">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDidDeleteLastPrivateTab()" time="0.17850792407989502">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testDidSelectPrivateTabAfterNormalTab()" time="0.19887709617614746">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testPrivatePreference_deletePrivateTabsOnExit()" time="0.385653018951416">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testPrivatePreference_togglePBMDeletesPrivate()" time="0.2659790515899658">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testRemoveAllShouldRemoveAllTabs()" time="0.03577101230621338">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testRemoveNonSelectedTab()" time="0.2696249485015869">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testRemoveTabAndUpdateSelectedIndexIsSelectedParentTabAfterRemoval()" time="0.2114959955215454">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testRemoveTabRemovingLastNormalTabShouldNotSwitchToPrivateTab()" time="0.2244950532913208">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testRemoveTabSelectedTabShouldChangeIndex()" time="0.1958179473876953">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testTabsIndex()" time="0.12494707107543945">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testTabsIndexClosingFirst()" time="0.20523202419281006">
+        </testcase>
+        <testcase classname="TabManagerTests" name="testUndoCloseTabsRemovesAutomaticallyCreatedNonPrivateTab()" time="0.1798100471496582">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testNotShouldUpdateSearchTermData_NilNextUrl()" time="0.03503108024597168">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testNotShouldUpdateSearchTermData_SameNextURL()" time="0.021770000457763672">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testNotShouldUpdateSearchTermData_SameSearchURL()" time="0.020856022834777832">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testNotUpdateObservationTitle_ForOpenInNewTab()" time="0.025436043739318848">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testNotUpdateObservationTitle_ForTabSwitched()" time="0.023516058921813965">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testShouldUpdateSearchTermData()" time="0.1447610855102539">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testUpdateObservationTitle_ForNavigatedToDifferentURL()" time="0.0862349271774292">
+        </testcase>
+        <testcase classname="TabMetadataManagerTests" name="testUpdateObservationTitle_ForOpenURLOnly()" time="0.06055104732513428">
+        </testcase>
+        <testcase classname="TabTests" name="testWithoutMobilePrefixOnlyRemovesMobileSubdomains()" time="0.002543926239013672">
+        </testcase>
+        <testcase classname="TabTests" name="testWithoutMobilePrefixRemovesMobile()" time="0.0017600059509277344">
+        </testcase>
+        <testcase classname="TabTests" name="testWithoutMobilePrefixRemovesMobilePrefixes()" time="0.0018420219421386719">
+        </testcase>
+        <testcase classname="TabToolbarHelperTests" name="testSearchStateImages()" time="0.00533902645111084">
+        </testcase>
+        <testcase classname="TabToolbarHelperTests" name="testSetsInitialImages()" time="0.004408001899719238">
+        </testcase>
+        <testcase classname="TabToolbarHelperTests" name="testTapHome()" time="0.004606962203979492">
+        </testcase>
+        <testcase classname="TabTrayViewControllerTests" name="testCountUpdatesAfterTabRemoval()" time="0.34200894832611084">
+        </testcase>
+        <testcase classname="TabsQuantityTelemetryTests" name="testTrackTabsQuantity_withNormalTab_gleanIsCalled()" time="0.04216504096984863">
+        </testcase>
+        <testcase classname="TabsQuantityTelemetryTests" name="testTrackTabsQuantity_withPrivateTab_gleanIsCalled()" time="0.22594094276428223">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintDismissButton_GleanIsCalled()" time="0.2003920078277588">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintDismissButtonWithoutExtras_GleanIsNotCalled()" time="0.04422008991241455">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintDismissOutsideTap_GleanIsCalled()" time="0.16090703010559082">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintDismissOutsideTapWithoutExtras_GleanIsNotCalled()" time="1.1792700290679932">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintPressAction_GleanIsCalled()" time="0.032276034355163574">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_contextualHintPressActionWithoutExtras_GleanIsNotCalled()" time="1.3119009733200073">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_firefoxHomePageAddView_GleanIsCalled()" time="0.03837299346923828">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_preferencesWithExtras_GleanIsCalled()" time="0.2116919755935669">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_preferencesWithoutExtras_GleanIsNotCalled()" time="0.14837908744812012">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_recentlySavedBookmarkViewWithExtras_GleanIsCalled()" time="0.14246702194213867">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_recentlySavedBookmarkViewWithoutExtras_GleanIsNotCalled()" time="0.13667309284210205">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_recentlySavedReadingListViewViewWithExtras_GleanIsCalled()" time="0.05625808238983154">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_recentlySavedReadingListViewWithoutExtras_GleanIsNotCalled()" time="1.092960000038147">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_tabsNormalQuantity_GleanIsCalled()" time="0.024827957153320312">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_tabsNormalQuantityWithoutExtras_GleanIsNotCalled()" time="0.028812050819396973">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_tabsPrivateQuantity_GleanIsCalled()" time="0.031384944915771484">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_tabsPrivateQuantityWithoutExtras_GleanIsNotCalled()" time="0.03277301788330078">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_topSiteContextualMenu_GleanIsCalled()" time="1.0646250247955322">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_topSiteContextualMenuWithoutExtra_GleanIsNotCalled()" time="0.023352980613708496">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_topSiteTileWithExtras_GleanIsCalled()" time="0.02851998805999756">
+        </testcase>
+        <testcase classname="TelemetryWrapperTests" name="test_topSiteTileWithoutExtras_GleanIsNotCalled()" time="0.02742302417755127">
+        </testcase>
+        <testcase classname="TestFavicons" name="testDefaultFavicons()" time="0.01455998420715332">
+        </testcase>
+        <testcase classname="TestHashExtensions" name="testSha1()" time="0.0018650293350219727">
+        </testcase>
+        <testcase classname="TestHashExtensions" name="testSha256()" time="0.005993008613586426">
+        </testcase>
+        <testcase classname="TestHistory" name="testAboutUrls()" time="0.06705093383789062">
+        </testcase>
+        <testcase classname="TestHistory" name="testGetPerformance()" time="0.6621960401535034">
+        </testcase>
+        <testcase classname="TestHistory" name="testHistory()" time="0.482822060585022">
+        </testcase>
+        <testcase classname="TestHistory" name="testInsertPerformance()" time="1.2373859882354736">
+        </testcase>
+        <testcase classname="TestHistory" name="testRandomThreading()" time="0.5301870107650757">
+        </testcase>
+        <testcase classname="TestHistory" name="testRandomThreading2()" time="0.5659059286117554">
+        </testcase>
+        <testcase classname="TestHistory" name="testSearchHistory_NoResults()" time="0.10175096988677979">
+        </testcase>
+        <testcase classname="TestHistory" name="testSearchHistory_WithResults()" time="0.09735894203186035">
+        </testcase>
+        <testcase classname="TestHistory" name="testSearchHistory_WithResultsByTitle()" time="0.12021899223327637">
+        </testcase>
+        <testcase classname="TestHistory" name="testSearchHistory_WithResultsByUrl()" time="0.12912797927856445">
+        </testcase>
+        <testcase classname="UIImageViewExtensionsTests" name="testAsyncSetIcon()" time="1.0922540426254272">
+        </testcase>
+        <testcase classname="UIImageViewExtensionsTests" name="testDefaultIcons()" time="1.0097450017929077">
+        </testcase>
+        <testcase classname="UIImageViewExtensionsTests" name="testsetIcon()" time="0.0030260086059570312">
+        </testcase>
+        <testcase classname="UIPasteboardExtensionsTests" name="testAddGIFImage()" time="0.42482292652130127">
+        </testcase>
+        <testcase classname="UIPasteboardExtensionsTests" name="testAddPNGImage()" time="0.17016494274139404">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToBottom_whenEmpty()" time="0.0024690628051757812">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToBottom_withTwoViews()" time="0.0020159482955932617">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToTop_thenRemove()" time="0.0018600225448608398">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToTop_thenRemoveAll()" time="0.0018570423126220703">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToTop_whenEmpty()" time="0.0018099546432495117">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testAddArrangedViewToTop_withTwoViews()" time="0.001847982406616211">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangedView_greaterThanCountDoesNothing()" time="0.013701081275939941">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangedView_insertAtSamePosition()" time="0.0018519163131713867">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangedView_insertOneTooFar()" time="0.0019730329513549805">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangedView_lessThan0DoesNothing()" time="0.0020570755004882812">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangedView_whenEmptyAt0()" time="0.0031919479370117188">
+        </testcase>
+        <testcase classname="UIStackViewExtensionsTests" name="testInsertArrangezdView_insertAtSubsequentPosition()" time="0.001958012580871582">
+        </testcase>
+        <testcase classname="UpdateCoverSheetViewModelTests" name="testShouldNotShowCoverSheetCleanInstall()" time="0.0053920745849609375">
+        </testcase>
+        <testcase classname="UpdateCoverSheetViewModelTests" name="testShouldNotShowCoverSheetForSameVersion()" time="0.009073019027709961">
+        </testcase>
+        <testcase classname="UpdateCoverSheetViewModelTests" name="testShouldShowCoverSheetFromFeatureToUpdate()" time="0.004821062088012695">
+        </testcase>
+        <testcase classname="UpdateCoverSheetViewModelTests" name="testShouldShowCoverSheetFromNoFeatureToUpdate()" time="0.006215929985046387">
+        </testcase>
+        <testcase classname="VersionSettingTests" name="testCopyAppVersion()" time="0.048761963844299316">
+        </testcase>
+        <testcase classname="WebServerTests" name="testWebServerIsRunning()" time="0.002206087112426758">
+        </testcase>
+        <testcase classname="WebServerTests" name="testWebServerIsServingRequests()" time="0.016870975494384766">
+        </testcase>
+    </testsuite>
+    <testsuite name="SharedTests" tests="83" failures="0" time="3.54595947265625">
+        <testcase classname="ArrayExtensionTests" name="testSameElements()" time="0.006890058517456055">
+        </testcase>
+        <testcase classname="ArrayExtensionTests" name="testUnion()" time="0.016605019569396973">
+        </testcase>
+        <testcase classname="ArrayExtensionTests" name="testUnique()" time="0.009363055229187012">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testAccumulation()" time="0.007050037384033203">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testFailingAppend()" time="0.19021999835968018">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testFailingCombine()" time="0.0061130523681640625">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testSimpleBehaviour()" time="0.04829597473144531">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testWaitingFillerAppendingBehaviour()" time="0.5220789909362793">
+        </testcase>
+        <testcase classname="AsyncReducerTests" name="testWaitingFillerBehaviour()" time="0.523482084274292">
+        </testcase>
+        <testcase classname="DeferredTests" name="testDeferMaybe()" time="0.0015900135040283203">
+        </testcase>
+        <testcase classname="DeferredTests" name="testDeferred()" time="0.0017501115798950195">
+        </testcase>
+        <testcase classname="DeferredTests" name="testFailAccumulate_andDoesntLeak()" time="0.0016690492630004883">
+        </testcase>
+        <testcase classname="DeferredTests" name="testMultipleUponBlocks()" time="0.0016840696334838867">
+        </testcase>
+        <testcase classname="DeferredTests" name="testOperators()" time="0.0017319917678833008">
+        </testcase>
+        <testcase classname="DeferredTests" name="testPassAccumulate_andDoesntLeak()" time="0.001672983169555664">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="test0Percent()" time="0.053147077560424805">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="test100Percent()" time="0.05431389808654785">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="test30Percent()" time="0.047811031341552734">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="test50Percent()" time="0.047711968421936035">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testAppConstantsWin()" time="0.005245089530944824">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testConsistentWhenChangingPercentage()" time="0.0018169879913330078">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testForceDisabled()" time="0.0014929771423339844">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testPerformance()" time="0.3378540277481079">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testPersistent()" time="0.0018230676651000977">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testReallyConsistentWhenChangingPercentage()" time="0.44753706455230713">
+        </testcase>
+        <testcase classname="FeatureSwitchTests" name="testUserEnabled()" time="0.0016989707946777344">
+        </testcase>
+        <testcase classname="HexExtensionsTests" name="testHexDecodedData()" time="0.0016179084777832031">
+        </testcase>
+        <testcase classname="HexExtensionsTests" name="testHexDecodedDataWithInvalidInput()" time="0.0013580322265625">
+        </testcase>
+        <testcase classname="HexExtensionsTests" name="testHexEncodedString()" time="0.0014609098434448242">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testBaseDomainForExceptionDomain()" time="0.002187013626098633">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testBaseDomainForExceptionDomainWithAdditionalSubdomain()" time="0.0014950037002563477">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testBaseDomainForWildcardDomain()" time="0.0014709234237670898">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testBaseDomainForWildcardDomainWithAdditionalSubdomain()" time="0.0014890432357788086">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testBugzillaURLDomain()" time="0.002193927764892578">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testCanadaComputers()" time="0.0014709234237670898">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testdecodeReaderModeURL()" time="0.0018759965896606445">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testdisplayURL()" time="0.0033320188522338867">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testdomainURL()" time="0.0015369653701782227">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testencodeReaderModeURL()" time="0.0014740228652954102">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testExceptionDomain()" time="0.0015189647674560547">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testgetQuery()" time="0.0015010833740234375">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testhavingRemovedAuthorisationComponents()" time="0.001466989517211914">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testHidingFromDataDetectors()" time="0.04711496829986572">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testhostPort()" time="0.00206601619720459">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testIPv6Domain()" time="0.001690983772277832">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisAboutHomeURL()" time="0.0017429590225219727">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisAboutURL()" time="0.0018008947372436523">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisErrorPage()" time="0.0016989707946777344">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisReaderModeURL()" time="0.0014700889587402344">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisSyncedReaderModeURL()" time="0.002339959144592285">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testisWebPage()" time="0.00206601619720459">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testKeepsAboutSchemeInURL()" time="0.0014899969100952148">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testKeepsHTTPSAndRemovesTrailingSlashInURL()" time="0.003911018371582031">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testKeepsHTTPSAndTrailingSlashInURL()" time="0.0013240575790405273">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testKeepsHTTPSInURL()" time="0.001359105110168457">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testMultipleSuffixesInsideURL()" time="0.0016499757766723633">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testNormalBaseDomainWithManySubdomains()" time="0.0015109777450561523">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testNormalBaseDomainWithSingleSubdomain()" time="0.0017080307006835938">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testNormalBaseSubdomain()" time="0.0017709732055664062">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testNormalBaseSubdomainWithAdditionalSubdomain()" time="0.001623988151550293">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testnormalizedHostAndPath()" time="0.001710057258605957">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testorigin()" time="0.008784055709838867">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testoriginalURLFromErrorURL()" time="0.001659989356994629">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testRemovesHTTPAndTrailingSlashFromURL()" time="0.001631021499633789">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testRemovesHTTPButNotTrailingSlashFromURL()" time="0.0015180110931396484">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testRemovesHTTPFromURL()" time="0.001838088035583496">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testschemeIsValid()" time="0.0016189813613891602">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testShortDisplayString()" time="0.001722097396850586">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testWildCardDomainWithManySubdomains()" time="0.0014919042587280273">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testWildCardDomainWithSingleSubdomain()" time="0.0014729499816894531">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testWithQueryParam()" time="0.0015799999237060547">
+        </testcase>
+        <testcase classname="NSURLExtensionsTests" name="testwithQueryParams()" time="0.0016459226608276367">
+        </testcase>
+        <testcase classname="ResultTests" name="testResult()" time="0.0013649463653564453">
+        </testcase>
+        <testcase classname="RollingFileLoggerTests" name="testNewLogCreatesLogFileWithTimestamp()" time="0.010161995887756348">
+        </testcase>
+        <testcase classname="RollingFileLoggerTests" name="testNewLogDeletesOldestLogFileToMakeRoomForNewFile()" time="0.03338193893432617">
+        </testcase>
+        <testcase classname="RollingFileLoggerTests" name="testNewLogDeletesPreviousLogIfItsTooLarge()" time="1.0144439935684204">
+        </testcase>
+        <testcase classname="SupportUtilsTests" name="testURLForTopic()" time="0.0016150474548339844">
+        </testcase>
+        <testcase classname="UtilsTests" name="testChunk()" time="0.0031490325927734375">
+        </testcase>
+        <testcase classname="UtilsTests" name="testChunkCollection()" time="0.0016410350799560547">
+        </testcase>
+        <testcase classname="UtilsTests" name="testMapUtils()" time="0.0013810396194458008">
+        </testcase>
+        <testcase classname="UtilsTests" name="testOptArrayEqual()" time="0.0012940168380737305">
+        </testcase>
+        <testcase classname="UtilsTests" name="testOptFilter()" time="0.0014789104461669922">
+        </testcase>
+        <testcase classname="UtilsTests" name="testParseTimestamps()" time="0.0029370784759521484">
+        </testcase>
+    </testsuite>
+    <testsuite name="StorageTests" tests="52" failures="1" time="8.733661413192749">
+        <testcase classname="CertTests" name="testCertStore()" time="0.009824991226196289">
+        </testcase>
+        <testcase classname="DiskImageStoreTests" name="testStore()" time="0.2752569913864136">
+        </testcase>
+        <testcase classname="RustLoginsTests" name="testAddLogin()" time="0.02341604232788086">
+        </testcase>
+        <testcase classname="RustLoginsTests" name="testDeleteLogin()" time="0.018706917762756348">
+        </testcase>
+        <testcase classname="RustLoginsTests" name="testListLogins()" time="0.014648079872131348">
+        </testcase>
+        <testcase classname="RustLoginsTests" name="testUpdateLogin()" time="0.020534992218017578">
+        </testcase>
+        <testcase classname="RustPlacesTests" name="testHistoryMetadataBasics()" time="0.06975507736206055">
+        </testcase>
+        <testcase classname="SQLRemoteClientsAndTabsTests" name="testGetTabsForClient()" time="0.048243045806884766">
+        </testcase>
+        <testcase classname="SQLRemoteClientsAndTabsTests" name="testInsertGetClear()" time="0.08333396911621094">
+        </testcase>
+        <testcase classname="SQLRemoteClientsAndTabsTests" name="testReplaceRemoteDevices()" time="0.03508496284484863">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testCreateSyncCommandFromShareItem()" time="0.03476095199584961">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testDeleteForAllClients()" time="0.08538591861724854">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testDeleteForValidClient()" time="0.04973399639129639">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testGetForAllClients()" time="0.0552821159362793">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testInsertWithMultipleCommands()" time="0.04200601577758789">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testInsertWithNoURLOrTitle()" time="0.043138980865478516">
+        </testcase>
+        <testcase classname="SyncCommandsTests" name="testInsertWithURLOnly()" time="0.035974979400634766">
+        </testcase>
+        <testcase classname="TestBrowserDB" name="testConcurrentQueries()" time="0.399616003036499">
+        </testcase>
+        <testcase classname="TestBrowserDB" name="testConcurrentQueriesDealloc()" time="0.059339046478271484">
+        </testcase>
+        <testcase classname="TestBrowserDB" name="testMovesDB()" time="0.08902406692504883">
+        </testcase>
+        <testcase classname="TestBrowserDB" name="testUpgradeV33toV34RemovesLongURLs()" time="0.023743033409118652">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testDomains()" time="0.10345900058746338">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testDomainUpgrade()" time="0.028280019760131836">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testHistoryIsSynced()" time="0.03636801242828369">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testHistoryLocalAndRemoteVisits()" time="0.07463490962982178">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testHistoryTable()" time="0.0">
+            <failure message="Crash: Client (64307) implicit closure #4 in closure #4 in TestSQLiteHistory.testHistoryTable(): Namespace SIGNAL, Code 0x4. dyld4 config: DYLD_ROOT_PATH=/Applications/Xcode_13.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot DYLD_LIBRARY_PATH=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator DYLD_INSERT_LIBRARIES=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator/Client.app/Frameworks/libXCTestBundleInject.dylib:/Applications/Xcode_13.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib DYLD_FRAMEWORK_PATH=/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator:/Users/isabelrios/Library/Developer/Xcode/DerivedData/Client-bztiyumjlqqpicevlltzsmemtzvd/Build/Products/Fennec-iphonesimulator/PackageFrameworks 
+StorageTests/TestSQLiteHistory.swift:1232: Fatal error: Unexpectedly found nil while unwrapping an Optional value
+CoreSimulator 776.4 - Device: iPhone 11 (5D8E0878-64FC-433E-B839-C048627E351D) - Runtime: iOS 15.0 (19A339) - DeviceType: iPhone 11 (#CharacterRangeLen=0)">
+            </failure>
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testPinnedTopSites()" time="1.060410976409912">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testPinnedTopSitesDuplicateDomains()" time="1.0523080825805664">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testRemoveHistoryForUrl()" time="0.10359001159667969">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testRemoveRecentHistory()" time="0.14225196838378906">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testTopSitesCache()" time="1.213989019393921">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testTopSitesFiltersGoogle()" time="1.6756240129470825">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testTopSitesFrecencyOrder()" time="1.2587659358978271">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testUpgrades()" time="0.13986408710479736">
+        </testcase>
+        <testcase classname="TestSQLiteHistory" name="testUpgradesWithData()" time="0.04280900955200195">
+        </testcase>
+        <testcase classname="TestSQLiteHistoryTransactionUpdate" name="testUpdateInTransaction()" time="0.052999019622802734">
+        </testcase>
+        <testcase classname="TestSQLiteMetadata" name="testDuplicateCacheKeyInsert()" time="0.028486013412475586">
+        </testcase>
+        <testcase classname="TestSQLiteMetadata" name="testExpirationPurging()" time="0.005321979522705078">
+        </testcase>
+        <testcase classname="TestSQLiteMetadata" name="testInsertMetadata()" time="0.005102992057800293">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testCreateRecord()" time="0.007354021072387695">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testDeleteAllRecords()" time="0.008229970932006836">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testDeleteRecord()" time="0.005112051963806152">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testGetAllRecords()" time="0.0059850215911865234">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testGetNewRecords()" time="0.0051000118255615234">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testGetRecordWithURL()" time="0.0036590099334716797">
+        </testcase>
+        <testcase classname="TestSQLiteReadingList" name="testUpdateRecord()" time="0.0037540197372436523">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testArrayCursor()" time="0.02304208278656006">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testBusyTimeout()" time="0.027284979820251465">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testDefaultSettings()" time="0.026174068450927734">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testFilledCursor()" time="0.02583491802215576">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testNoWAL()" time="0.0256880521774292">
+        </testcase>
+        <testcase classname="TestSwiftData" name="testNulls()" time="0.02536797523498535">
+        </testcase>
+    </testsuite>
+    <testsuite name="SyncTelemetryTests" tests="8" failures="0" time="0.023389220237731934">
+        <testcase classname="EventTests" name="testEventValidation()" time="0.01301109790802002">
+        </testcase>
+        <testcase classname="EventTests" name="testIdentifierStringValidation()" time="0.0012220144271850586">
+        </testcase>
+        <testcase classname="EventTests" name="testPickling()" time="0.001437067985534668">
+        </testcase>
+        <testcase classname="EventTests" name="testUnpickling()" time="0.001180887222290039">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testConfirmSignUpCodeFlow()" time="0.0025680065155029297">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testSignInFlow()" time="0.0010960102081298828">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testSignInTokenFlow()" time="0.001479029655456543">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testSignUpFlow()" time="0.001395106315612793">
+        </testcase>
+    </testsuite>
+    <testsuite name="SyncTests" tests="63" failures="0" time="1.8497413396835327">
+        <testcase classname="CryptoTests" name="testBadBase64()" time="0.001932978630065918">
+        </testcase>
+        <testcase classname="CryptoTests" name="testDecrypt()" time="0.0021430253982543945">
+        </testcase>
+        <testcase classname="CryptoTests" name="testEncrypt()" time="0.0017060041427612305">
+        </testcase>
+        <testcase classname="CryptoTests" name="testHMAC()" time="0.002631068229675293">
+        </testcase>
+        <testcase classname="DownloadTests" name="testBasicDownload()" time="0.26789796352386475">
+        </testcase>
+        <testcase classname="DownloadTests" name="testDownloadBatches()" time="0.03852498531341553">
+        </testcase>
+        <testcase classname="HistorySynchronizerTests" name="testApplyRecords()" time="0.014986991882324219">
+        </testcase>
+        <testcase classname="HistorySynchronizerTests" name="testRecordSerialization()" time="0.0056760311126708984">
+        </testcase>
+        <testcase classname="InfoTests" name="testSame()" time="0.003349900245666504">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testCryptoKeysMissing()" time="0.2133539915084839">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testEngineConfigurations()" time="0.2604858875274658">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testFailingOptimisticStateMachine()" time="0.015569925308227539">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testHappyOptimisticStateMachine()" time="0.062335968017578125">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testMetaGlobalAndCryptoKeysFresh()" time="0.07239699363708496">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testMetaGlobalMissing()" time="0.10432100296020508">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testMetaGlobalModified()" time="0.15502393245697021">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testMetaGlobalVersionTooNew()" time="0.032791972160339355">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testMetaGlobalVersionTooOld()" time="0.11692595481872559">
+        </testcase>
+        <testcase classname="MetaGlobalTests" name="testUpdatedCryptoKeys()" time="0.1546039581298828">
+        </testcase>
+        <testcase classname="MockSyncServerTests" name="testDeleteSpec()" time="0.0018661022186279297">
+        </testcase>
+        <testcase classname="MockSyncServerTests" name="testGet()" time="0.02318108081817627">
+        </testcase>
+        <testcase classname="MockSyncServerTests" name="testInfoCollections()" time="0.046057939529418945">
+        </testcase>
+        <testcase classname="MockSyncServerTests" name="testPut()" time="0.04877293109893799">
+        </testcase>
+        <testcase classname="MockSyncServerTests" name="testWipeStorage()" time="0.05471396446228027">
+        </testcase>
+        <testcase classname="RecordTests" name="testEncryptedClientRecord()" time="0.0029730796813964844">
+        </testcase>
+        <testcase classname="RecordTests" name="testEnvelopeJSON()" time="0.0015909671783447266">
+        </testcase>
+        <testcase classname="RecordTests" name="testEnvelopeNullTTL()" time="0.0017540454864501953">
+        </testcase>
+        <testcase classname="RecordTests" name="testGUIDs()" time="0.001405954360961914">
+        </testcase>
+        <testcase classname="RecordTests" name="testHistoryPayload()" time="0.001667022705078125">
+        </testcase>
+        <testcase classname="RecordTests" name="testHistoryPayloadWithNoTitle()" time="0.0014729499816894531">
+        </testcase>
+        <testcase classname="RecordTests" name="testHistoryPayloadWithNoURL()" time="0.0014350414276123047">
+        </testcase>
+        <testcase classname="RecordTests" name="testHistoryPayloadWithNullTitle()" time="0.001483917236328125">
+        </testcase>
+        <testcase classname="RecordTests" name="testLoginPayload()" time="0.002279996871948242">
+        </testcase>
+        <testcase classname="RecordTests" name="testMeta()" time="0.002128005027770996">
+        </testcase>
+        <testcase classname="RecordTests" name="testParsedNulls()" time="0.0016770362854003906">
+        </testcase>
+        <testcase classname="RecordTests" name="testRecord()" time="0.004507899284362793">
+        </testcase>
+        <testcase classname="RecordTests" name="testSwiftyJSONSerializingControlChars()" time="0.0014090538024902344">
+        </testcase>
+        <testcase classname="StateTests" name="testPickling()" time="0.030664920806884766">
+        </testcase>
+        <testcase classname="StorageClientTests" name="testNumeric()" time="0.001538991928100586">
+        </testcase>
+        <testcase classname="StorageClientTests" name="testOverSizeRecords()" time="0.0177459716796875">
+        </testcase>
+        <testcase classname="StorageClientTests" name="testPartialJSON()" time="0.0014020204544067383">
+        </testcase>
+        <testcase classname="StorageClientTests" name="testPOSTResult()" time="0.0014989376068115234">
+        </testcase>
+        <testcase classname="StorageClientTests" name="testResponseHeaders()" time="0.0015180110931396484">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testAddLargeRecordFails()" time="0.01711595058441162">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testBackoffDuringBatchUploading()" time="0.0023990869522094727">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testBatchUploadWithPartialPayload()" time="0.00388491153717041">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testBatchUploadWithSinglePayload()" time="0.0022389888763427734">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testBatchUploadWithUnevenPayloadsInBatch()" time="0.0035420656204223633">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testFailToSerializeRecord()" time="0.0016330480575561523">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testIfUnmodifiedSinceUpdatesForSinglePOSTs()" time="0.002714991569519043">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testMultipleBatchUpload()" time="0.005807995796203613">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testUploadBatchUnsupportedBatching()" time="0.002228975296020508">
+        </testcase>
+        <testcase classname="Sync15BatchClientTests" name="testUploadRegularSingleBatch()" time="0.0040090084075927734">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testApplyIncomingRecordsReportsDownloadStats()" time="0.0020749568939208984">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testApplyIncomingRecordsToStorageReportsDownloadStats()" time="0.0018639564514160156">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testCommonData()" time="0.001461029052734375">
+        </testcase>
+        <testcase classname="SyncTelemetryTests" name="testUploadRecordsReportsUploadStats()" time="0.0027489662170410156">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testFromInvalidJSON()" time="0.0017200708389282227">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testFromJSON()" time="0.004382014274597168">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testFromJSONWithInvalidRecord()" time="0.001537919044494629">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testTabWithBadTabLastUsed()" time="0.003799915313720703">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testTabWithBadTabs()" time="0.0015610456466674805">
+        </testcase>
+        <testcase classname="TabsPayloadTests" name="testTabWithCorrectTabLastUsed()" time="0.0016120672225952148">
+        </testcase>
+    </testsuite>
+</testsuites>
