@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="2.0" encoding="UTF-8"?>
 <testsuites tests="50" failures="0">
     <testsuite name="XCUITests" tests="50" failures="0" time="1333.8478064537048">
         <testcase classname="ActivityStreamTest" name="testDefaultSites()" time="16.061020970344543">
